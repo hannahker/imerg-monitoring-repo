@@ -1,0 +1,12 @@
+name: Run monitoring
+
+on:
+  workflow_dispatch:
+
+jobs:
+  monitoring:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Monitor
+      run: echo "Monitoring pipeline just ran!"
